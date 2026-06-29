@@ -41,6 +41,13 @@ This repository contains the following skills:
   npx skills add hankunpeng/hkp-skills --skill gemini-cli
   ```
 
+### 6. Twitter Posting (`twitter`)
+* **Description**: Posts content (text and up to 4 images) to X (Twitter) using Chrome Computer Use Mode.
+* **Installation**:
+  ```bash
+  npx skills add hankunpeng/hkp-skills --skill twitter
+  ```
+
 ---
 
 
