@@ -34,6 +34,13 @@ This repository contains the following skills:
   npx skills add hankunpeng/hkp-skills --skill claude-code-statusline
   ```
 
+### 5. Gemini Web Client (`gemini-cli`)
+* **Description**: Generates images and text via reverse-engineered Gemini Web API. Suitable for AI Pro and higher tier subscription users. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations.
+* **Installation**:
+  ```bash
+  npx skills add hankunpeng/hkp-skills --skill gemini-cli
+  ```
+
 ---
 
 
