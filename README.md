@@ -31,7 +31,14 @@ This repository contains the following skills:
 
 ## Installation
 
+To list all available skills in this repository:
+
+```bash
+npx skills add hankunpeng/hkp-skills -l
+```
+
 You can install all skills in this repository:
+
 
 ```bash
 npx skills add hankunpeng/hkp-skills
