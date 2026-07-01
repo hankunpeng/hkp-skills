@@ -4,7 +4,7 @@ description: Generates images and text via reverse-engineered Gemini Web API. Su
 version: 1.56.2
 metadata:
   antigravity: # Note: 'antigravity' can be replaced with your own Agent platform name, e.g. 'openclaw'
-    homepage: https://github.com/hankunpeng/hkp-skills#gemini-cli
+    homepage: https://github.com/hankunpeng/skills#gemini-cli
     requires:
       anyBins:
         - bun
@@ -49,9 +49,9 @@ Concrete `AskUserQuestion` references below are examples — substitute the loca
 Before first use, verify user consent for reverse-engineered API usage.
 
 **Consent file locations**:
-- macOS: `~/Library/Application Support/hkp-skills/gemini-cli/consent.json`
-- Linux: `~/.local/share/hkp-skills/gemini-cli/consent.json`
-- Windows: `%APPDATA%\hkp-skills\gemini-cli\consent.json`
+- macOS: `~/Library/Application Support/skills/gemini-cli/consent.json`
+- Linux: `~/.local/share/skills/gemini-cli/consent.json`
+- Windows: `%APPDATA%\skills\gemini-cli\consent.json`
 
 **Flow**:
 1. Check if consent file exists with `accepted: true` and `disclaimerVersion: "1.0"`
@@ -69,9 +69,9 @@ Check EXTEND.md in priority order — the first one found wins:
 
 | Priority | Path | Scope |
 |----------|------|-------|
-| 1 | `.hkp-skills/gemini-cli/EXTEND.md` | Project |
-| 2 | `${XDG_CONFIG_HOME:-$HOME/.config}/hkp-skills/gemini-cli/EXTEND.md` | XDG |
-| 3 | `$HOME/.hkp-skills/gemini-cli/EXTEND.md` | User home |
+| 1 | `.skills/gemini-cli/EXTEND.md` | Project |
+| 2 | `${XDG_CONFIG_HOME:-$HOME/.config}/skills/gemini-cli/EXTEND.md` | XDG |
+| 3 | `$HOME/.skills/gemini-cli/EXTEND.md` | User home |
 
 If none found, use defaults.
 
